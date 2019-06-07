@@ -1,0 +1,25 @@
+
+server:
+  port: 8887
+
+github:
+  client:
+    id: 4ecb273d2cd734f2c4e1
+    secret: 43ad9ff3398cd5931fcc0c6fe4dcea96bb00a1d3
+  redirect:
+    uri: http://localhost:8887/callback
+
+spring:
+  datasource:
+    url: jdbc:h2:~/bilibili/community
+    username: sa
+    password: 123
+    # 需要将com.h2database加入到classpath
+    driver-class-name: org.h2.Driver
+    devtools:
+      restart:
+        exclude: static/**,public/**
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
