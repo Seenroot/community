@@ -36,6 +36,9 @@ public class IndexController {
      * 方式4
      * qualifier来跟bean去匹配：@Qualifier("userMapper")
      * 参考文章：https://blog.csdn.net/afsvsv/article/details/78771591
+     *
+     * 方式5
+     * option + enter --> Inspection 'Autowiring for Bean Class' options --> Disable inspection
      */
     // @Resource
     @Autowired
