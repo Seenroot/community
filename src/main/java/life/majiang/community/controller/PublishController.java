@@ -1,11 +1,9 @@
-package life.maijiang.comunity.controller;
+package life.majiang.community.controller;
 
-import life.maijiang.comunity.dto.QuestionDTO;
-import life.maijiang.comunity.mapper.QuestionMapper;
-import life.maijiang.comunity.mapper.UserMapper;
-import life.maijiang.comunity.model.Question;
-import life.maijiang.comunity.model.User;
-import life.maijiang.comunity.service.QuestionService;
+import life.majiang.community.dto.QuestionDTO;
+import life.majiang.community.model.Question;
+import life.majiang.community.model.User;
+import life.majiang.community.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

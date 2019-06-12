@@ -1,11 +1,9 @@
-package life.maijiang.comunity.controller;
+package life.majiang.community.controller;
 
 
-import life.maijiang.comunity.dto.PaginationDTO;
-import life.maijiang.comunity.dto.QuestionDTO;
-import life.maijiang.comunity.mapper.UserMapper;
-import life.maijiang.comunity.model.User;
-import life.maijiang.comunity.service.QuestionService;
+import life.majiang.community.dto.PaginationDTO;
+import life.majiang.community.mapper.UserMapper;
+import life.majiang.community.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
@@ -13,10 +11,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.annotation.Resource;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 
 @Controller
 public class IndexController {
